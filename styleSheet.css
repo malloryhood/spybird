@@ -1,0 +1,92 @@
+header{
+	background-color:#0100d2;
+	font-family: "Georgia";
+	border: 10px solid #D21DE6;
+	font-size: 40px;
+	color: #76F95F;
+	text-align: left;
+	padding-left: 25px;
+	
+}
+body{
+	background-color: #F8FCE2;
+	color: #0000D2;
+	text-align: center;
+	font-size: 25px;
+	float: left;
+}
+h2,subtitle{
+	font-size: 25px;
+	padding-left: 20px;
+	color: #F1B827;
+}
+nav{
+	text-align: center;
+	font-size: 25px;
+	font-family: "courier";
+	background-color: #B4EDD2
+}
+
+#logo {
+	width: 150px;
+	padding-left: 40px;
+	padding-right: 70px;
+}
+
+a {
+	font-family: "Helvetica Nue";
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-decoration: None;
+	color: #2A7F62;
+}
+
+a.current {
+	color: #F1B827;
+	background-color: #0100d2;
+	border-radius: 10px;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #F1B827;
+	background-color: #0100d2;
+	border-radius: 10px;
+	text-decoration: underline;
+}
+h3.subtitle2{
+	font-size: 35px;
+	text-align: center;
+	color: #2A7F62;
+}
+
+aside{
+	background-color: #B4EDD2;
+	float: right;
+	padding-right: 5px;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+img {
+    max-width: 220px;
+    max-height: 150px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+    font-size: 5px;
+}
